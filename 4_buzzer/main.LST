@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  05/26/2020 11:40:25 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  05/27/2020 11:20:05 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -12,32 +12,23 @@ line level    source
    3          typedef unsigned char u8;
    4          typedef unsigned int u16;
    5          
-   6          #define led P2
+   6          sbit beep=P1^5;
    7          
    8          void delay(u16 i){        //i==1,10Œ¢√Î
    9   1              while(i--);
   10   1      }
   11          
   12          void main(){
-  13   1              u8 i=0;
-  14   1              led=0xfe;       //1111 1110
-  15   1              delay(50000);
-  16   1              while(1){
-  17   2                      for(i=0;i<7;i++){
-  18   3                              led=_crol_(led,1);                //0xfe 1111 1101
-  19   3                              delay(50000);
-  20   3                      }
-  21   2                      for(i=0;i<7;i++){
-  22   3                              led=_cror_(led,1);               
-  23   3                              delay(50000);
-  24   3                      }
-  25   2                      //led=0xfe;
-  26   2              }
-  27   1      }
+  13   1              
+  14   1              while(1){
+  15   2                      //beep=~beep;
+  16   2                      delay(100);
+  17   2              }
+  18   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =     70    ----
+   CODE SIZE        =     20    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----

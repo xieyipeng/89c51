@@ -1,0 +1,796 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\89c51\4_buzzer\template.uvproj
+Project File Date:  05/27/2020
+
+<h2>Output:</h2>
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=85
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(16): warning C206: 'relay': missing function-prototype
+MAIN.C(16): error C267: 'relay': requires ANSI-style prototype
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=37
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=37
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+MAIN.C(16): error C231: 'beep': redefinition
+main.c - 64 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+MAIN.C(16): error C231: 'beep': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+MAIN.C(16): error C231: 'beep': redefinition
+Target not created
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'i', expected ')'
+MAIN.C(9): error C202: 'i': undefined identifier
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+main.c - 65 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'i', expected ')'
+MAIN.C(9): error C202: 'i': undefined identifier
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'i', expected ')'
+MAIN.C(9): error C202: 'i': undefined identifier
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'i', expected ')'
+MAIN.C(9): error C202: 'i': undefined identifier
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+main.c - 65 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'i', expected ')'
+MAIN.C(9): error C202: 'i': undefined identifier
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+main.c - 63 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(13): error C231: 'P0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(14): error C231: 'P1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(15): error C231: 'P2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(16): error C231: 'P3': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(17): error C231: 'PSW': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(18): error C231: 'ACC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(19): error C231: 'B': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(20): error C231: 'SP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(21): error C231: 'DPL': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(22): error C231: 'DPH': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(23): error C231: 'PCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(24): error C231: 'TCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(25): error C231: 'TMOD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(26): error C231: 'TL0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(27): error C231: 'TL1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(28): error C231: 'TH0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(29): error C231: 'TH1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(30): error C231: 'IE': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(31): error C231: 'IP': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(32): error C231: 'SCON': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(33): error C231: 'SBUF': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(38): error C231: 'CY': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(39): error C231: 'AC': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(40): error C231: 'F0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(41): error C231: 'RS1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(42): error C231: 'RS0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(43): error C231: 'OV': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(44): error C231: 'P': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(47): error C231: 'TF1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(48): error C231: 'TR1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(49): error C231: 'TF0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(50): error C231: 'TR0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(51): error C231: 'IE1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(52): error C231: 'IT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(53): error C231: 'IE0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(54): error C231: 'IT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(57): error C231: 'EA': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(58): error C231: 'ES': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(59): error C231: 'ET1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(60): error C231: 'EX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(61): error C231: 'ET0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(62): error C231: 'EX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(65): error C231: 'PS': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(66): error C231: 'PT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(67): error C231: 'PX1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(68): error C231: 'PT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(69): error C231: 'PX0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(72): error C231: 'RD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(73): error C231: 'WR': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(74): error C231: 'T1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(75): error C231: 'T0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(76): error C231: 'INT1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(77): error C231: 'INT0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(78): error C231: 'TXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(79): error C231: 'RXD': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(82): error C231: 'SM0': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(83): error C231: 'SM1': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(84): error C231: 'SM2': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(85): error C231: 'REN': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(86): error C231: 'TB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(87): error C231: 'RB8': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(88): error C231: 'TI': redefinition
+D:\KEIL\DOWNLOAD\C51\INC\ATMEL\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=16.2 xdata=0 code=797
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=16.2 xdata=0 code=797
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=37
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=35
+creating hex file from "template"...
+"template" - 0 Error(s), 0 Warning(s).
